@@ -1,0 +1,39 @@
+.current-weather {
+  position: relative;
+  display: flex;
+  border-radius: 7px;
+  background: #858991;
+  padding: 10px;
+  &__content {
+    display: flex;
+    align-items: center;
+  }
+
+  &__temp,
+  &__description {
+    margin: 0;
+  }
+
+  &__temp {
+    font-size: 42px;
+  }
+
+  &__description {
+    font-size: 16px;
+  }
+
+  &__icon {
+    width: 150px;
+  }
+
+  &__feels-like {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    margin: 0;
+    font-size: 14px;
+  }
+
+  &__text {
+  }
+}
